@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 namespace Uro\TeltonikaFmParser\Model;
 
@@ -28,6 +28,7 @@ class IoValue extends Model
                 $format = 'S';
                 break;
             case 4:
+            case 8:
                 $format = 'L';
                 break;
 
@@ -48,6 +49,7 @@ class IoValue extends Model
                 $format = 's';
                 break;
             case 4:
+            case 8:
                 $format = 'l';
                 break;
 
